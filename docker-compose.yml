@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  mariadb:
+    image: mariadb:11.4
+    container_name: tienda-mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: tienda
+      MARIADB_USER: tienda
+      MARIADB_PASSWORD: tienda
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - mariadb_data:/var/lib/mysql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+volumes:
+  mariadb_data:

@@ -1,4 +1,4 @@
-package es.cesguiro.shop.domain;
+package es.shop.domain;
 
 import java.util.List;
 import java.util.Optional;

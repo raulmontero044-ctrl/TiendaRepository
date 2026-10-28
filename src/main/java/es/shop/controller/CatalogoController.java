@@ -1,7 +1,7 @@
-package es.cesguiro.shop.controller;
+package es.shop.controller;
 
-import es.cesguiro.shop.domain.Product;
-import es.cesguiro.shop.domain.ProductService;
+import es.shop.domain.Product;
+import es.shop.domain.ProductService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

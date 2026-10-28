@@ -1,7 +1,7 @@
-package es.cesguiro.shop.config;
+package es.shop.config;
 
-import es.cesguiro.shop.domain.ProductDao;
-import es.cesguiro.shop.domain.ProductService;
+import es.shop.domain.ProductDao;
+import es.shop.domain.ProductService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

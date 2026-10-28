@@ -69,8 +69,8 @@
                         <configuration>
                             <inputSpec>${project.basedir}/src/main/resources/openapi.yaml</inputSpec>
                             <generatorName>spring</generatorName>
-                            <apiPackage>es.cesguiro.shop.controller.api</apiPackage>
-                            <modelPackage>es.cesguiro.shop.controller.model</modelPackage>
+                            <apiPackage>es.shop.controller.api</apiPackage>
+                            <modelPackage>es.shop.controller.model</modelPackage>
                             <generateSupportingFiles>false</generateSupportingFiles>
                             <cleanupOutput>true</cleanupOutput>
                             <configOptions>

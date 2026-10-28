@@ -1,7 +1,7 @@
-package es.cesguiro.shop.controller;
+package es.shop.controller;
 
-import es.cesguiro.shop.domain.Product;
-import es.cesguiro.shop.domain.ProductService;
+import es.shop.domain.Product;
+import es.shop.domain.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package es.cesguiro.shop.domain.exception;
+package es.shop.domain.exception;
 
 public class ProductNotFoundException extends RuntimeException {
     public ProductNotFoundException(Long id) {

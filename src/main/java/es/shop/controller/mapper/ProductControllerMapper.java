@@ -1,6 +1,6 @@
-package es.cesguiro.shop.controller.mapper;
+package es.shop.controller.mapper;
 
-import es.cesguiro.shop.domain.Product;
+import es.shop.domain.Product;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package es.cesguiro.shop.architecture;
+package es.shop.architecture;
 
 import com.tngtech.archunit.core.importer.ImportOption;
 import com.tngtech.archunit.junit.AnalyzeClasses;
@@ -8,7 +8,7 @@ import com.tngtech.archunit.lang.ArchRule;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
 import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
 
-@AnalyzeClasses(packages = "es.cesguiro.shop", importOptions = ImportOption.DoNotIncludeTests.class)
+@AnalyzeClasses(packages = "es.shop", importOptions = ImportOption.DoNotIncludeTests.class)
 public class ArchitectureTest {
 
     @ArchTest
@@ -71,7 +71,7 @@ public class ArchitectureTest {
     @ArchTest
     static final ArchRule productdaojdbc_must_implement_productdao =
             classes().that().haveName("ProductDaoJdbc")
-                    .should().implement("es.cesguiro.shop.domain.ProductDao");
+                    .should().implement("es.shop.domain.ProductDao");
 
     @ArchTest
     static final ArchRule services_in_domain_must_be_pure =

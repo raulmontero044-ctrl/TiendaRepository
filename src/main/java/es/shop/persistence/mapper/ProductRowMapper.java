@@ -1,6 +1,6 @@
-package es.cesguiro.shop.persistence.mapper;
+package es.shop.persistence.mapper;
 
-import es.cesguiro.shop.domain.Product;
+import es.shop.domain.Product;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

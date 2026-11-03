@@ -25,6 +25,19 @@ CREATE TABLE IF NOT EXISTS product (
   INDEX idx_product_id_catalogo (id_catalogo)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+-- Autenticación (módulo auth)
+CREATE TABLE IF NOT EXISTS usuarios (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(80) NOT NULL UNIQUE,
+    password_hash VARCHAR(100) NOT NULL,
+    nombre VARCHAR(120) NOT NULL,
+    rol VARCHAR(40) NOT NULL,
+    activo BOOLEAN NOT NULL DEFAULT TRUE
+);
+
+INSERT IGNORE INTO usuarios (username, password_hash, nombre, rol, activo)
+VALUES ('admin', '$2a$10$K.OdDQ/Oqk.kMFxG4s5vquY5xzgIveprfWmx.GeUEdFlagPUYckji', 'Administrador', 'ADMIN', TRUE);
+
 INSERT INTO catalogs (name, description) VALUES
     ('Periféricos', 'Entrada y salida para el escritorio'),
     ('Pantallas',   'Monitores y proyección'),

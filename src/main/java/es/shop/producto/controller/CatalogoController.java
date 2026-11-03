@@ -1,7 +1,7 @@
-package es.shop.controller;
+package es.shop.producto.controller;
 
-import es.shop.domain.Product;
-import es.shop.domain.ProductService;
+import es.shop.producto.domain.Product;
+import es.shop.producto.domain.ProductService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

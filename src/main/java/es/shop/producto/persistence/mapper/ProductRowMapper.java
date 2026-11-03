@@ -1,6 +1,6 @@
-package es.shop.persistence.mapper;
+package es.shop.producto.persistence.mapper;
 
-import es.shop.domain.Product;
+import es.shop.producto.domain.Product;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

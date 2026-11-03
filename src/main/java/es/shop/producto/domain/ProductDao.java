@@ -1,4 +1,4 @@
-package es.shop.domain;
+package es.shop.producto.domain;
 
 import java.util.List;
 import java.util.Optional;

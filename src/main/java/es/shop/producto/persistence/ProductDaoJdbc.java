@@ -1,8 +1,8 @@
-package es.shop.persistence;
+package es.shop.producto.persistence;
 
-import es.shop.domain.Product;
-import es.shop.domain.ProductDao;
-import es.shop.persistence.mapper.ProductRowMapper;
+import es.shop.producto.domain.Product;
+import es.shop.producto.domain.ProductDao;
+import es.shop.producto.persistence.mapper.ProductRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;

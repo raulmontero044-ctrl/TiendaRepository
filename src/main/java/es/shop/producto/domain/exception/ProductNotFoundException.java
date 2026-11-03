@@ -1,4 +1,4 @@
-package es.shop.domain.exception;
+package es.shop.producto.domain.exception;
 
 public class ProductNotFoundException extends RuntimeException {
     public ProductNotFoundException(Long id) {

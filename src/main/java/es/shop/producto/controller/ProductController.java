@@ -1,7 +1,7 @@
-package es.shop.controller;
+package es.shop.producto.controller;
 
-import es.shop.domain.Product;
-import es.shop.domain.ProductService;
+import es.shop.producto.domain.Product;
+import es.shop.producto.domain.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

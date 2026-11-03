@@ -70,8 +70,8 @@ public class ArchitectureTest {
 
     @ArchTest
     static final ArchRule productdaojdbc_must_implement_productdao =
-            classes().that().haveName("ProductDaoJdbc")
-                    .should().implement("es.shop.domain.ProductDao");
+            classes().that().haveSimpleName("ProductDaoJdbc")
+                    .should().implement("es.shop.producto.domain.ProductDao");
 
     @ArchTest
     static final ArchRule services_in_domain_must_be_pure =

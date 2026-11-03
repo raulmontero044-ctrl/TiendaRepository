@@ -1,4 +1,4 @@
-package es.shop.domain;
+package es.shop.producto.domain;
 
 import java.math.BigDecimal;
 

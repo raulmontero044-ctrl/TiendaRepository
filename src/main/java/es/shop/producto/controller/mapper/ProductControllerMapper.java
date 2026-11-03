@@ -1,8 +1,6 @@
-package es.shop.controller.mapper;
+package es.shop.producto.controller.mapper;
 
-import es.shop.domain.Product;
-
-import java.math.BigDecimal;
+import es.shop.producto.domain.Product;
 
 public class ProductControllerMapper {
     public static Product toDomain(Object request) {
